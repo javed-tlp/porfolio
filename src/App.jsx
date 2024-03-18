@@ -8,10 +8,10 @@ import Projects from "./pages/projects";
 import Contact from "./pages/contact";
 function App() {
   return (
-    <div className="bg-zinc-400 text-white  min-h-screen max-h-full p-2 sm:p-0">
+    <div className=" text-cyan-700  min-h-screen max-h-full p-2 sm:p-0">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/porfolio" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/stack" element={<TechStack />}></Route>
         <Route path="/projects" element={<Projects />}></Route>

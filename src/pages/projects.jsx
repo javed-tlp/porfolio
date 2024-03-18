@@ -8,13 +8,13 @@ const Projects = () => {
     <div className="p-2">
       <div className="h-2/3 m-5 sm:flex gap-5 justify-center items-center">
         <img
-          className="sm:rounded-2xl border-2 border-white sm:w-2/5"
+          className="sm:rounded-2xl border-2 border-orange-300 sm:w-2/5"
           src={todo}
           alt="project"
         />
-        <div className=" sm:w-3/5 h-auto p-2 text-left border border-white">
+        <div className=" sm:w-3/5 h-auto p-2 text-left border border-orange-300">
           <p className="text-lg font-bold ">Project Name: Todo List App</p>
-          <hr className="my-1" />
+          <hr className="my-1 border-black" />
           <p className="font-semibold">Description: </p>
           <p className="text-md leading-8 tracking-wide">
             This is a simple todo list app built with react, node and
@@ -25,13 +25,13 @@ const Projects = () => {
 
       <div className="h-2/3 m-5 sm:flex gap-5 justify-center items-center">
         <img
-          className="sm:rounded-2xl border-2 border-white sm:w-2/5"
+          className="sm:rounded-2xl border-2 border-orange-300 sm:w-2/5"
           src={coockr}
           alt="project"
         />
-        <div className=" sm:w-3/5 h-auto p-2 text-left border border-white">
+        <div className=" sm:w-3/5 h-auto p-2 text-left border border-orange-300">
           <p className="text-lg font-bold ">Project Name: Recipe App</p>
-          <hr className="my-1" />
+          <hr className="my-1 border-black" />
           <p className="font-semibold">Description: </p>
           <p className="text-md leading-8 tracking-wide">
             This is a responsive web application that allows users to create,
@@ -44,13 +44,13 @@ const Projects = () => {
 
       <div className="h-2/3 m-5 sm:flex gap-5 justify-center items-center">
         <img
-          className="sm:rounded-2xl border-2 border-white sm:w-2/5"
+          className="sm:rounded-2xl border-2 border-orange-300 sm:w-2/5"
           src={bookstore}
           alt="project"
         />
-        <div className=" sm:w-3/5 h-auto p-2 text-left border border-white">
+        <div className=" sm:w-3/5 h-auto p-2 text-left border border-orange-300">
           <p className="text-lg font-bold ">Project Name: Bookstore App</p>
-          <hr className="my-1" />
+          <hr className="my-1 border-black" />
           <p className="font-semibold">Description: </p>
           <p className="text-md leading-8 tracking-wide">
             This is a responsive web application that allows users to create,

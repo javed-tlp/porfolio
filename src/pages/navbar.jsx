@@ -4,16 +4,17 @@ import { RiCloseFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 function Navbar() {
   const [open, setOpen] = useState(false);
+  const linkCss="relative  hover:text-orange-400  cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-orange-400 before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:-top-1 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-orange-400 after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:-top-1 after:right-[50%]"
   const menu = () => {
     setOpen(!open);
   };
   return (
-    <div className="">
-      <header className=" md:px-16 px-4 py-1 sm:py-0  flex flex-wrap items-center  shadow-md">
+    <div className="mb-3">
+      <header className=" md:px-16 px-4 py-1 sm:py-0  flex flex-wrap items-center  shadow-md shadow-orange-300">
         <div className="flex-1 flex justify-between items-center">
           <Link
-            to="/"
-            className="text-3xl font-bold text-transparent bg-clip-text  bg-gradient-to-tr from-amber-400 via-amber-200 to-red-800"
+            to="/porfolio"
+            className="text-3xl sm:py-3 font-bold hover:text-orange-300 "
           >
             Prashant
           </Link>
@@ -34,38 +35,38 @@ function Navbar() {
             <ul
               className={`sm:flex items-center z-10 justify-between sm:text-2xl font-semibold  pt-4 sm:pt-0 ${
                 open
-                  ? "block relative z-10 bg-[#0092DA] w-full ml-0 pl-5 "
+                  ? "block relative z-10  w-full ml-0 pl-5 "
                   : "hidden"
               }`}
             >
-              <li>
+              <li className="mx-2  sm:py-3">
                 <Link
-                  className="sm:p-4 py-3 px-0 block hover:underline hover:ease-linear"
+                className={linkCss }
                   to="/about"
                 >
                   About
                 </Link>
               </li>
-              <li>
+              <li className="mx-2 py-1 sm:py-3">
                 <Link
-                  className="sm:p-4 py-3 px-0 block hover:underline hover:ease-linear"
+                  className={linkCss}
                   to="/stack"
                 >
                   Tech-Stack
                 </Link>
               </li>
-              <li>
+              <li className="mx-2 py-1 sm:py-3">
                 <Link
-                  className="sm:p-4 py-3 px-0 block hover:underline hover:ease-linear"
-                  to="/projects"
+                className={linkCss}
+                to="/projects"
                 >
                   Projects
                 </Link>
               </li>
-              <li>
+              <li className="mx-2 py-1 sm:py-3">
                 <Link
-                  className="sm:p-4 py-3 px-0 block sm:mb-0 mb-2 hover:underline hover:ease-linear"
-                  to="/contact"
+                className={linkCss}
+                to="/contact"
                 >
                   Contact Me
                 </Link>
