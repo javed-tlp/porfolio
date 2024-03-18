@@ -13,7 +13,7 @@ function Navbar() {
       <header className=" md:px-16 px-4 py-1 sm:py-0  flex flex-wrap items-center  shadow-md shadow-orange-300">
         <div className="flex-1 flex justify-between items-center">
           <Link
-            to="/portfolio"
+            to="/porfolio"
             className="text-3xl sm:py-3 font-bold hover:text-orange-300 "
           >
             Prashant
