@@ -11,7 +11,7 @@ function App() {
     <div className=" text-cyan-700  min-h-screen max-h-full p-2 sm:p-0">
       <Navbar />
       <Routes>
-        <Route path="/porfolio" element={<Home />}></Route>
+        <Route path="/portfolio" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/stack" element={<TechStack />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
