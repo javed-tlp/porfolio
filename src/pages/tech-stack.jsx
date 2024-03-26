@@ -12,7 +12,7 @@ import git from "/icon/git.png";
 
 function TechStack() {
   const iconCss =
-    " border-2 p-2  shadow-md  transition-all duration-300 shadow-cyan-300 hover:border-orange-300  hover:scale-110 hover:brightness-50 ";
+    " border-2 p-2  shadow-md  transition-all duration-300 shadow-orange-300 hover:border-orange-300  hover:scale-110 hover:brightness-50 ";
   return (
     <div className=" flex mt-2 sm:h-96 justify-center items-center">
       <ul className=" h-4/5 w-4/5 grid grid-cols-2 sm:grid-cols-5  items-center gap-3">

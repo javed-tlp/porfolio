@@ -12,7 +12,7 @@ const Projects = () => {
           src={todo}
           alt="project"
         />
-        <div className=" sm:w-3/5 h-auto p-2 text-left border border-orange-300">
+        <div className=" sm:w-3/5 h-auto p-2 text-left  border-orange-400 border-l-2 border-b-2">
           <p className="text-lg font-bold ">Project Name: Todo List App</p>
           <hr className="my-1 border-black" />
           <p className="font-semibold">Description: </p>
@@ -29,7 +29,7 @@ const Projects = () => {
           src={coockr}
           alt="project"
         />
-        <div className=" sm:w-3/5 h-auto p-2 text-left border border-orange-300">
+        <div className=" sm:w-3/5 h-auto p-2 text-left border-orange-400 border-l-2 border-b-2">
           <p className="text-lg font-bold ">Project Name: Recipe App</p>
           <hr className="my-1 border-black" />
           <p className="font-semibold">Description: </p>
@@ -48,7 +48,7 @@ const Projects = () => {
           src={bookstore}
           alt="project"
         />
-        <div className=" sm:w-3/5 h-auto p-2 text-left border border-orange-300">
+        <div className=" sm:w-3/5 h-auto p-2 text-left  border-orange-400 border-l-2 border-b-2">
           <p className="text-lg font-bold ">Project Name: Bookstore App</p>
           <hr className="my-1 border-black" />
           <p className="font-semibold">Description: </p>

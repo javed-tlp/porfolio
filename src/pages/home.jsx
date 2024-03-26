@@ -18,22 +18,24 @@ const Home = () => {
             </h2>
             <p className="text-lg font-semibold mt-5  sm:mt-6">
               Welcome to my portfolio! I'm thrilled to have you here. I'm a B.Tech, Mechanical Engineering graduate.
-              🌐 I build web application using MERN stack. I love to use React.js and Next.js
+              🌐 I build web application using MERN stack. I love to use React.js and currently exploring Next.js
             </p>
           </div>
         </div>
-        <div className="flex justify-center m-4 sm:m-2   shadow-orange-400 md:mx-8 md:h-60">
+        <div className="flex justify-center mx-4 my-1  md:mx-8 md:w-60 md:h-60">
+        <div className=" bg-orange-400 md:w-52 md:h-60">
           <img
-            className="h-60 w-52 border-2 p-2  shadow-md  transition-all duration-300 shadow-cyan-300 hover:border-orange-500  hover:scale-110 hover:brightness-50 "
+            className="h-60 w-52   shadow-md shadow-orange-500  transition-all duration-300  hover:border-orange-500  hover:scale-110 hover:brightness-50 "
             src={myimg}
             alt="Img"
           ></img>
+        </div>
         </div>
       </div>
       <div className="grid place-content-center mt-2 ">
         <a className="mx-auto" href={pdfFile} download="PrashantSingh">
           <button
-            className="px-9 py-2 rounded-2xl font-semibold bg-orange-500 hover:bg-yellow-500 ease-in duration-300"
+            className="px-9 py-2 text-white rounded-2xl font-semibold bg-orange-500 hover:bg-yellow-500 ease-in duration-300"
             type="file"
             download="true"
           >

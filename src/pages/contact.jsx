@@ -19,14 +19,14 @@ const Contact = () => {
       .catch((e) => toast("mail not sent", { type: "error" }));
   };
   return (
-    <>
-      <div className="bg-transparent m-2 p-2 sm:h-3/4 sm:w-3/5 sm:mt-4 grid gap-8 grid-cols-1 md:grid-cols-2 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg">
+    <div className="flex justify-center items-center">
+      <div className="bg-transparent m-2 p-2 sm:h-3/4 sm:w-3/5 sm:mt-4 grid gap-8 grid-cols-1 md:grid-cols-2  bg-gray-100  shadow-orange-500 rounded-lg shadow-lg">
         <div className="flex flex-col justify-between">
           <div className="sm:mt-20">
             <h2 className=" text-lg sm:text-4xl lg:text-5xl font-bold leading-tight">
-              Lets talk about everything!
+              Lets talk!
             </h2>
-            <div className="text-black mt-8">can connect on social hanldes</div>
+            <div className=" mt-8">can connect on social hanldes</div>
             <div className="flex mt-2 gap-2">
               <span className="text-4xl">
                 <AiFillGithub />
@@ -39,7 +39,7 @@ const Contact = () => {
         </div>
         <div className="">
           <div>
-            <span className="uppercase text-sm text-gray-600 font-bold">
+            <span className="uppercase text-sm  font-bold">
               Full Name
             </span>
             <input
@@ -50,29 +50,29 @@ const Contact = () => {
             />
           </div>
           <div className="mt-2">
-            <span className="uppercase text-sm text-gray-600 font-bold">
+            <span className="uppercase text-sm font-bold">
               Email
             </span>
             <input
-              className="w-full bg-gray-300 text-gray-900 mt-1 p-1 rounded-lg focus:outline-none focus:shadow-outline"
+              className="w-full bg-gray-300 mt-1 p-1 rounded-lg focus:outline-none focus:shadow-outline"
               type="text"
               name="email"
               onChange={handler}
             />
           </div>
           <div className="mt-2">
-            <span className="uppercase text-sm text-gray-600 font-bold">
+            <span className="uppercase text-sm font-bold">
               Message
             </span>
             <textarea
-              className="w-full h-32 bg-gray-300 text-gray-900 mt-1 p-1 rounded-lg focus:outline-none focus:shadow-outline"
+              className="w-full h-32 bg-gray-300 mt-1 p-1 rounded-lg focus:outline-none focus:shadow-outline"
               name="message"
               onChange={handler}
             ></textarea>
           </div>
           <div className="mt-2">
             <button
-              className="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
+              className="uppercase text-sm font-bold tracking-wide bg-orange-600 text-white p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
               onClick={submit}
             >
               Send Message
@@ -81,7 +81,7 @@ const Contact = () => {
         </div>
       </div>
       <ToastContainer />
-    </>
+    </div>
   );
 };
 
