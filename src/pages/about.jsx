@@ -3,6 +3,10 @@ import codeImg from "/image/coding.jpg";
 
 const About = () => {
   return (
+
+
+
+    
     <>
       <div className=" items-center mt-auto sm:grid sm:grid-cols-2 ">
         <div className="h-1/4 m-1 p-1  sm:w-auto sm:h-3/4 sm:ml-20">
